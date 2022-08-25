@@ -15,6 +15,6 @@ spec:
       - name: nginx
         image: nginx:latest
         envFrom:
-          configMapRef:
-            name: "my-cm"
+          - configMapRef:
+              name: "my-cm"
       
