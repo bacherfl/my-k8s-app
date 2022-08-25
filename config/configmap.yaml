@@ -4,4 +4,4 @@ metadata:
   name: my-cm
 data: 
   SPECIAL_LEVEL: very
-  SPECIAL_TYPE: charm
+  SPECIAL_TYPE: hulumulu
