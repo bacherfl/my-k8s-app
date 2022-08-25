@@ -10,10 +10,11 @@ spec:
     metadata:
       labels:
         app: "my-app"
-    containers:
-    - name: nginx
-      image: nginx:latest
-      envFrom:
-        configMapRef:
-          name: "my-cm"
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        envFrom:
+          configMapRef:
+            name: "my-cm"
       
